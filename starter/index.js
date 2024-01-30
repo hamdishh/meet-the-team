@@ -39,5 +39,12 @@ function promptTeamManager() {
             message: "Enter the team managers office number?:",
             name: "officeNumber",
         },
-    ])
+    ]).then((answers) => {
+        //drawingg out answers from userninput
+        const { name, id, email, officeNumber } = answers;
+
+        //making a manager object
+    }
+    )
+
 }
