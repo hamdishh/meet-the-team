@@ -50,7 +50,12 @@ function promptTeamManager() {
         teamMembers.push(manager);
 
         //now call a function to prompt the user for the team engineer's details
-        
+        function promptTeamEngineer() {
+            inquirer.prompt([
+            {
+                
+            }
+            ])
     }
     )
 
