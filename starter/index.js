@@ -57,7 +57,11 @@ function promptTeamManager() {
                 message: "Enter the team Engineer's name:",
                 name: "name", 
             },
-            
+            {
+                type: "input",
+                message: "Enter the team engineers ID:",
+                name: "id",
+            },
             ])
     }
     )
