@@ -81,6 +81,20 @@ function promptTeamManager() {
 
                 //Using push function to add the new "engineer" object to the TeamMembers array alongisde "manager"
                 teamMembers.push(engineer);
+
+                //calling function to prompt user for Interns details
+                function promptIntern() {
+                    inquirer.prompt([
+                        {
+                        type: "input",
+                        message: "Enter the name of your intern:",
+                        name: "name",
+                        },
+                        {
+
+                        },
+                    ])
+                }
             }
             )
     }
