@@ -34,5 +34,10 @@ function promptTeamManager() {
             message: "Enter the team manager's email address",
             name: "email",
         },
+        {
+            type: "Input", 
+            message: "Enter the team managers office number?:",
+            name: "officeNumber",
+        },
     ])
 }
