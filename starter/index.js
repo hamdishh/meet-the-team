@@ -69,10 +69,20 @@ function promptTeamManager() {
             },
             {
                 type: "Input", 
-                message: "Enter the team engineers office number?:",
-                name: "officeNumber",
+                message: "Enter the team engineer's github username?:",
+                name: "github",
             },
-            ])
+            ]).then((answers) => {
+                //destructing to extract values from 'answers parameter
+                const { name, id, email, github };
+
+                //creating an engineer object containing all the infor provided by user input
+                const engineer = new Engineer(name, id, email, github);
+
+                //Using push function to add the new "engineer" object to the TeamMembers array alongisde "manager"
+                teamMembers.push(engineer);
+            }
+            )
     }
     )
 
