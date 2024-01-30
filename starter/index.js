@@ -53,8 +53,11 @@ function promptTeamManager() {
         function promptTeamEngineer() {
             inquirer.prompt([
             {
-                
-            }
+                type: "input",
+                message: "Enter the team Engineer's name:",
+                name: "name", 
+            },
+            
             ])
     }
     )
