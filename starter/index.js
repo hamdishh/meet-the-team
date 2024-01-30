@@ -43,7 +43,14 @@ function promptTeamManager() {
         //drawingg out answers from userninput
         const { name, id, email, officeNumber } = answers;
 
-        //making a manager object
+        //making a manager object with information provided in the user input
+        const manager = new Manager(name, id, email, officeNumber);
+
+        //Push the manager object using push function to add into TeamMembers array
+        teamMembers.push(manager);
+
+        //now call a function to prompt the user for the team engineer's details
+        
     }
     )
 
