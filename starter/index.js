@@ -62,6 +62,11 @@ function promptTeamManager() {
                 message: "Enter the team engineers ID:",
                 name: "id",
             },
+            {
+                type: "input",
+                message: "Enter the team engineers email address",
+                name: "email",
+            },
             ])
     }
     )
