@@ -17,3 +17,16 @@ const render = require("./src/page-template.js");
 const teamMembers = [];
 
 //I need to create a function to prompt the user for team managers details
+function promptTeamManager() {
+    inquirer.prompt([
+        {
+            type: "input",
+            message: "Enter the team's manager's name:",
+            name: "name",
+        },
+        {
+            type: "input",
+            message: "Enter "
+        }
+    ])
+}
