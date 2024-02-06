@@ -91,10 +91,44 @@ function promptTeamManager() {
                         name: "name",
                         },
                         {
-
+                        type: "input",
+                        message: "Enter the intern's ID:",
+                        name: "id",
                         },
-                    ])
-                }
+                        {
+                          type: "input",
+                            message: "Enter the intern's email:",
+                            name: "email",
+                        },
+                        {
+                            type: "input",
+                        message: "Enter the intern's school:",
+                        name: "school",
+                        },
+                    ]).then((answers) {
+                        const { name, id, email, school } = answers;
+
+                        //make an intern object with the provided info
+                        const intern = new Intern(name, id, email, school);
+
+                        //push the intern object to add into the teamMembers array
+                        teamMembers.push(intern);
+
+                        // add prompt incase user wants to add more team members
+                        promptAddMoreTeamMembers();
+                    });
+                  }
+                // Function to prompt the user to add more team members or finish
+               function promptAddMoreTeamMembers() {
+               inquirer.prompt([
+                        {
+                      type: "list",
+                       message: "Do you want to add more team members?",
+                       choices: ["Add Engineer", "Add Intern", "Finish Building Team"],
+                       name: "choice",
+                      },
+                      ]).then((answer) => {
+                        const { choice } answer;
             }
             )
     }
