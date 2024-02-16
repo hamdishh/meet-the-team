@@ -15,7 +15,9 @@ Shortly after the user is then prompted for the Managers details at first asking
 ![alt text](<Screenshot 2024-02-16 at 14.21.23.png>)
 
 ## Walkthrough Link
-[Walkthrough](<../Screen Recording 2024-02-16 at 21.16.21.mov>)
+https://drive.google.com/file/d/1bTpc8HygyXuA-872y-7RRQjovrmsGcZO/view?usp=sharing
+
+
 
 ## Credits
 All work is done by me, hamdishh
