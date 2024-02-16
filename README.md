@@ -16,33 +16,5 @@ Shortly after the user is then prompted for the Managers details at first asking
 
 
 
-
-
-## Mock-Up
-
-
----
-
-## Getting Started
-
-
-## Hints
-
-
----
-
-## Grading Requirements
-
-
-### Deliverables: 25%
-
-
-### Technical Acceptance Criteria: 50%
-
-
-### Repository Quality: 25%
-
-
-
-## Review
-
+## Credits
+All work is done by me, hamdishh
