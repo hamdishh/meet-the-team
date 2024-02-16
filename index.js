@@ -77,6 +77,8 @@ const inputManager = () => {
         const { name, id, email, officeNumber } = managerInput;
         const manager = new Manager(name, id, email, officeNumber);
 
+        console.log(manager.name, manager.id, manager.officeNumber, manager.email);
+
         teamMembers.push(manager);
         console.log(manager);
     });
@@ -170,6 +172,8 @@ const inputEmployee = () => {
         //stored data for types of team members inherited from employee class
         let { name, id, email, role, github, school, confirmTeamMember } = memberData;
         let member;
+         
+        console.log("Email:", email);
     
         if (role === "Engineer") {
             member = new Engineer(name, id, email, github);
